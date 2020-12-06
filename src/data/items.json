@@ -1,0 +1,148 @@
+[
+  {
+    "name": "Televisor 43\"",
+    "description": "Televisor Samsung 43\" UHD",
+    "details": "Smart TV Samsung 43\" 4K UHD con WiFi. Modelo UN43MU6100KXZL. Casi 3 años de uso, como nuevo en perfecto funcionamiento, sin ningún detalle.",
+    "price": "850.000",
+    "sold": false,
+    "images": [ "televisor.jpg" ]
+  },
+  {
+    "name": "Mueble para Televisor",
+    "description": "Mueble para Televisor de hasta 50 pulgadas",
+    "details": "Muy bonito mueble para colocar un televisor y equipos adicionales. En perfecto estado.",
+    "price": "100.000",
+    "sold": false,
+    "images": [ "televisor.jpg" ]
+  },
+  {
+    "name": "Oso de Peluche",
+    "description": "Oso de Peluche Grande",
+    "details": "Muy grande para viajar con nosotros sin pagar su propio pasaje. Nunca fue usado.",
+    "price": "50.000",
+    "sold": false,
+    "images": [ "oso.jpg" ]
+  },
+  {
+    "name": "Mecedora",
+    "description": "Silla Mecedora de Madera",
+    "details": "En excelente estado, con muy poco uso, solo fue usada por pocos meses para ayudar a dormir a la bebe.",
+    "price": "70.000",
+    "sold": false,
+    "images": [ "mecedora.jpg" ]
+  },
+  {
+    "name": "Esterilizador de Teteros",
+    "description": "Esterilizador 2 niveles marca Avent",
+    "details": "Muy práctico ya que posee dos niveles que puede ser usados de forma independiente. Muy poco uso, en excelente estado.",
+    "price": "190.000",
+    "sold": false,
+    "images": [ "esterilizador.jpg" ]
+  },
+  {
+    "name": "Saca Leche",
+    "description": "Saca Leche manual marca Advent",
+    "details": "Muy poco uso, en excelente estado.",
+    "price": "45.000",
+    "sold": false,
+    "images": [ "extractor.jpg" ]
+  },
+  {
+    "name": "Bolsas de Leche",
+    "description": "Bolsas para almacenar leche materna",
+    "details": "2 paquetes de X bolsas, totalmente sellados completamente nuevos.",
+    "price": "10.000",
+    "sold": false,
+    "images": [ "bolsas.jpg" ]
+  },
+  {
+    "name": "Cornetas con Woofer",
+    "description": "Juego de Cornetas con Woofer marca Logitech",
+    "details": "Excelente calidad de sonido, plug de audio normal.",
+    "price": "40.000",
+    "sold": false,
+    "images": [ "cornetas.jpg" ]
+  },
+  {
+    "name": "Nevera 380l",
+    "description": "Nevera Electrolux Non Frost 380l",
+    "details": "Nevera sin escarcha marca Electrolux con 380 litros de capacidad, en perfecto estado, con un poco menos de 3 años de uso.",
+    "price": "800.000",
+    "sold": false,
+    "images": [ "nevera.jpg" ]
+  },
+  {
+    "name": "Lavadora 9kg",
+    "description": "Lavadora Automática Electrolux Carga Superior de 9kg Plata",
+    "details": "Lavadora con capacidad de 9kg de carga, en excelente estado, con un poco menos de 3 años de uso.",
+    "price": "420.000",
+    "sold": false,
+    "images": ["lavadora.jpg"]
+  },
+  {
+    "name": "Juego de Comedor",
+    "description": "Comedor Rectangular Blanco de 4 puestos",
+    "details": "Juego de Comedor de Madera. Con detalles en la pintura normales por su uso. Lo bueno es que es de madera y se puede volver a pintar.",
+    "price": "380.000",
+    "sold": false,
+    "images": [
+      "mesa_1.jpg",
+      "mesa_2.jpg"
+    ]
+  },
+  {
+    "name": "Escritorio de Madera",
+    "description": "Tenemos 2 disponibles. Escritorios de madera en color blanco, en muy buen estado de conservación, pequeños detalles en la pintura.",
+    "price": "90.000",
+    "sold": false,
+    "images": [ "escritorio.jpg" ]
+  },
+  {
+    "name": "Sillón Ejecutivo",
+    "description": "Sillón Ejecutivo respaldo bajo con Brazos negro",
+    "details": "Tenemos 2 disponibles, con detalles en el forro de cuero, pero en perfecto estado de funcionamiento.",
+    "price": "70.000",
+    "sold": false,
+    "images": [ "sillon.jpg" ]
+  },
+  {
+    "name": "Sofá cama",
+    "description": "Sofá cama en color marrón",
+    "details": "En muy buen estado, con poco menos de 3 años de uso.",
+    "price": "100.000",
+    "sold": false,
+    "images": [ "mueble_1.jpg", "mueble_2.jpg"]
+  },
+  {
+    "name": "Puerta de Seguridad para Bebes",
+    "description": "Barrera de seguridad para bebes o mascotas",
+    "details": "Ancho ajustable, en perfecto estado tan solo 4 meses de uso. Excelente para evitar que tu bebe entre a la cocina.",
+    "price": "100.000",
+    "sold": false,
+    "images": []
+  },
+  {
+    "name": "Ventilador de Techo",
+    "description": "Ventilador de Techo Westinghouse",
+    "details": "Ventilador de Techo 5090 cfm de flujo de aire, 5 aspas. Muy silencioso, en excelente estado, menos de 4 meses de uso.",
+    "price": "275.000",
+    "sold": false,
+    "images": ["ventilador.jpg"]
+  },
+  {
+    "name": "Cama Queen",
+    "description": "Colchón Wonderful UP queen con base dividida",
+    "details": "En excelente estado, apenas un poco más de un año de uso.",
+    "price": "600.000",
+    "sold": false,
+    "images": ["cama.jpg"]
+  } ,
+  {
+    "name": "Cambiador/Bañera de Bebé",
+    "description": "Mueble con doble función Cambiador y Bañera color Rosa",
+    "details": "En muy buen estado, tan solo 15 meses de uso. Ideal para bañar a bebes desde recien nacidos hasta los 18 meses de edad.",
+    "price": "90.000",
+    "sold": false,
+    "images": ["bañera.jpg"]
+  }
+]

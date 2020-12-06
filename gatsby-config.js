@@ -1,4 +1,7 @@
 module.exports = {
+  siteMetadata: {
+    title: `Venta de Garaje`,
+  },
   plugins: [
     "gatsby-plugin-styled-components",
     {
@@ -10,9 +13,10 @@ module.exports = {
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-offline",
-    "gatsby-plugin-manifest",
+    //    "gatsby-plugin-manifest",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    "gatsby-transformer-json",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -20,6 +24,20 @@ module.exports = {
         path: "./src/images/",
       },
       __key: "images",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "data",
+        path: "./src/data/",
+      },
+      __key: "data",
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
     },
   ],
 };
