@@ -8,7 +8,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-gtag",
       options: {
-        trackingIds: ["G-2DSD3LPPJW"],
+        trackingIds: ["UA-72051000-4"],
       },
     },
     "gatsby-plugin-image",
