@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
     title: `Venta de Garaje`,
-    siteUrl: "https://ventadegaraje.now.sh",
+    siteUrl: "https://ventadegaraje.vercel.app",
   },
   plugins: [
     "gatsby-plugin-styled-components",
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "G-18Y84G4WDD",
+        trackingId: "G-2DSD3LPPJW",
       },
     },
     "gatsby-plugin-image",
