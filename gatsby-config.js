@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Venta de Garaje`,
+    siteUrl: "https://ventadegaraje.now.sh",
   },
   plugins: [
     "gatsby-plugin-styled-components",
