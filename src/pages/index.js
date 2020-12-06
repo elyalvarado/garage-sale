@@ -1,8 +1,19 @@
 import * as React from "react";
 import { graphql } from "gatsby";
+import styled from "styled-components";
 
 import Layout from "../components/layout";
 import ItemsSummary from "../components/itemsSummary";
+import Contact from "../components/contact";
+import FAQ from "../components/faq";
+
+const PageTitle = styled.h1`
+  margin-top: 0;
+`;
+
+const PageSubtitle = styled.h4`
+  margin-top: 0;
+`;
 
 // markup
 const IndexPage = ({ data }) => {
@@ -26,8 +37,11 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <title>{data.site.siteMetadata.title}</title>
-      <h1>{data.site.siteMetadata.title}</h1>
+      <PageTitle>{data.site.siteMetadata.title}</PageTitle>
+      <PageSubtitle>{data.site.siteMetadata.description}</PageSubtitle>
       <ItemsSummary items={items} />
+      <Contact />
+      <FAQ />
     </Layout>
   );
 };
@@ -37,6 +51,7 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+        description
       }
     }
     allItemsJson {
@@ -51,6 +66,10 @@ export const query = graphql`
           images
         }
       }
+    }
+    infoJson {
+      dates
+      lastDay
     }
     thumbnailImages: allImageSharp {
       edges {

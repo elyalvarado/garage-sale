@@ -115,7 +115,7 @@ const ItemSummary = ({
           <ItemPriceLabel>Precio:</ItemPriceLabel>
           <ItemPriceValue>${price}</ItemPriceValue>
         </ItemPrice>
-        <Button href="#">Consultar</Button>
+        <Button href="#contact">Consultar</Button>
       </ItemBottom>
     </ItemBody>
   </Item>
