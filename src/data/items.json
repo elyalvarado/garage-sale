@@ -91,8 +91,9 @@
     ]
   },
   {
-    "name": "Escritorio de Madera",
-    "description": "Tenemos 2 disponibles. Escritorios de madera en color blanco, en muy buen estado de conservación, pequeños detalles en la pintura.",
+    "name": "Escritorio",
+    "description": "Escritorio de Madera color Blanco",
+    "details": "Tenemos 2 disponibles. Escritorios de madera en color blanco, en muy buen estado de conservación, pequeños detalles en la pintura.",
     "price": "90.000",
     "sold": false,
     "images": [ "escritorio.jpg" ]
@@ -119,7 +120,7 @@
     "details": "Ancho ajustable, en perfecto estado tan solo 4 meses de uso. Excelente para evitar que tu bebe entre a la cocina.",
     "price": "100.000",
     "sold": false,
-    "images": []
+    "images": [ "puerta.jpg" ]
   },
   {
     "name": "Ventilador de Techo",
@@ -143,6 +144,6 @@
     "details": "En muy buen estado, tan solo 15 meses de uso. Ideal para bañar a bebes desde recien nacidos hasta los 18 meses de edad.",
     "price": "90.000",
     "sold": false,
-    "images": ["bañera.jpg"]
+    "images": ["banera.jpg"]
   }
 ]
