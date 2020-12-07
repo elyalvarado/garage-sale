@@ -129,6 +129,19 @@ const Button = styled.a`
   }
 `;
 
+const Sold = styled.div`
+  border-radius: 10px;
+  border: 3px solid #ab1818;
+  display: inline-block;
+  color: #ab1818;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transform: rotate(-20deg);
+`;
+
 const ItemSummary = ({
   name,
   description,
@@ -154,7 +167,11 @@ const ItemSummary = ({
           <ItemPriceLabel>Precio:</ItemPriceLabel>
           <ItemPriceValue>${price}</ItemPriceValue>
         </ItemPrice>
-        <Button href="#contact">Consultar</Button>
+        {sold ? (
+          <Sold>Vendido</Sold>
+        ) : (
+          <Button href="#contact">Consultar</Button>
+        )}
       </ItemBottom>
       <ItemNotice>
         {available

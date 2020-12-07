@@ -4,7 +4,7 @@
     "description": "Televisor Samsung 43\" UHD",
     "details": "Smart TV Samsung 43\" 4K UHD con WiFi. Modelo UN43MU6100KXZL. Casi 3 años de uso, como nuevo en perfecto funcionamiento, sin ningún detalle.",
     "price": "850.000",
-    "sold": false,
+    "sold": true,
     "images": [ "televisor.jpg" ],
     "available": true,
     "highlighted": true
@@ -14,7 +14,7 @@
     "description": "Mueble para Televisor de hasta 50 pulgadas",
     "details": "Muy bonito mueble para colocar un televisor y equipos adicionales. En perfecto estado.",
     "price": "100.000",
-    "sold": false,
+    "sold": true,
     "images": [ "televisor.jpg" ],
     "available": true,
     "highlighted": false
@@ -168,7 +168,7 @@
     "description": "Colchón Wonderful UP queen con base dividida",
     "details": "En excelente estado, apenas un poco más de un año de uso.",
     "price": "600.000",
-    "sold": false,
+    "sold": true,
     "images": ["cama.jpg"],
     "available": false,
     "highlighted": false
