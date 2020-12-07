@@ -1,5 +1,6 @@
 import * as React from "react";
 import styled from "styled-components";
+import Img from "gatsby-image";
 
 const Item = styled.li`
   background-color: white;
@@ -8,7 +9,7 @@ const Item = styled.li`
   border-radius: 10px;
   justify-content: space-between;
   margin: 40px 20px;
-  min-width: 640px;
+  min-width: 600px;
   flex: 1 1 0;
   box-shadow: 10px 10px 20px -5px rgba(115, 115, 115, 1);
 
@@ -20,6 +21,11 @@ const Item = styled.li`
   &:hover {
     background-color: #fffafa;
     box-shadow: 10px 10px 20px -5px rgb(138, 154, 187);
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    min-width: 300px;
   }
 `;
 
@@ -43,6 +49,15 @@ const Details = styled.p`
   font-size: 0.7em;
   margin-top: 20px;
   color: darkgray;
+  @media (max-width: 1460px) {
+    font-size: 1em;
+  }
+  @media (max-width: 1024px) {
+    font-size: 0.7em;
+  }
+  @media (max-width: 768px) {
+    font-size: 0.7em;
+  }
 `;
 
 const ItemText = styled.div`
@@ -74,6 +89,17 @@ const ItemNotice = styled.small`
 const Thumbnail = styled.img`
   border-radius: 10px 0 0 10px;
   margin-bottom: 0;
+  @media (max-width: 768px) {
+    display: none;
+  }
+`;
+
+const Banner = styled(Img)`
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 0;
+  @media (min-width: 768px) {
+    display: none;
+  }
 `;
 
 const Button = styled.a`
@@ -111,10 +137,12 @@ const ItemSummary = ({
   sold,
   available,
   thumbnails,
+  banners,
   lastDay,
 }) => (
   <Item>
     {thumbnails.length > 0 && <Thumbnail src={thumbnails[0]} alt={name} />}
+    {banners.length > 0 && <Banner fluid={banners[0]} alt={name} />}
     <ItemBody>
       <ItemText>
         <Name>{name}</Name>

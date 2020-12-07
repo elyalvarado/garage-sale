@@ -37,6 +37,18 @@ const IndexPage = ({ data }) => {
     });
   });
 
+  const banners = data.bannerImages.edges.map((t) => ({
+    ...t.node.fluid,
+  }));
+
+  banners.forEach((b) => {
+    const fileName = b.src.split("/").slice(-1)[0];
+    const itemsWithFileName = items.filter((i) => i.images?.includes(fileName));
+    itemsWithFileName.forEach((i) => {
+      i.banners = i.banners ? [...i.banners, b] : [b];
+    });
+  });
+
   const seoDescription = `${data.site.siteMetadata.description} -- ${items
     .filter((i) => i.highlighted)
     .map((i) => `${i.name} $${i.price}`)
@@ -89,6 +101,16 @@ export const query = graphql`
             resize(width: 300, height: 300) {
               src
             }
+          }
+        }
+      }
+    }
+    bannerImages: allImageSharp {
+      edges {
+        node {
+          fluid(maxWidth: 600) {
+            # Choose either the fragment including a small base64ed image, a traced placeholder SVG, or one without.
+            ...GatsbyImageSharpFluid_noBase64
           }
         }
       }
