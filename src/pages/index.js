@@ -17,6 +17,8 @@ const PageSubtitle = styled.h4`
 
 // markup
 const IndexPage = ({ data }) => {
+  const lastDay = data.infoJson.lastDay;
+
   const items = data.allItemsJson.edges.map((i) => ({
     ...i.node,
     thumbnails: [],
@@ -39,7 +41,7 @@ const IndexPage = ({ data }) => {
       <title>{data.site.siteMetadata.title}</title>
       <PageTitle>{data.site.siteMetadata.title}</PageTitle>
       <PageSubtitle>{data.site.siteMetadata.description}</PageSubtitle>
-      <ItemsSummary items={items} />
+      <ItemsSummary items={items} lastDay={lastDay} />
       <Contact />
       <FAQ />
     </Layout>
@@ -63,6 +65,8 @@ export const query = graphql`
           details
           price
           sold
+          available
+          highlighted
           images
         }
       }

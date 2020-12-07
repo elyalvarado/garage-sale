@@ -25,7 +25,7 @@ const Item = styled.li`
 
 const ItemBody = styled.div`
   flex-grow: 2;
-  padding: 40px 20px;
+  padding: 40px 20px 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -45,6 +45,10 @@ const Details = styled.p`
   color: darkgray;
 `;
 
+const ItemText = styled.div`
+  flex-grow: 2;
+`;
+
 const ItemBottom = styled.div`
   display: flex;
   justify-content: space-between;
@@ -60,6 +64,11 @@ const ItemPriceLabel = styled.h6`
 const ItemPriceValue = styled.h3`
   font-weight: bold;
   margin: 0;
+`;
+const ItemNotice = styled.small`
+  padding-top: 5px;
+  font-style: italic;
+  color: darkslategray;
 `;
 
 const Thumbnail = styled.img`
@@ -100,16 +109,18 @@ const ItemSummary = ({
   details,
   price,
   sold,
+  available,
   thumbnails,
+  lastDay,
 }) => (
   <Item>
     {thumbnails.length > 0 && <Thumbnail src={thumbnails[0]} alt={name} />}
     <ItemBody>
-      <div>
+      <ItemText>
         <Name>{name}</Name>
         <Description>{description}</Description>
         <Details>{details}</Details>
-      </div>
+      </ItemText>
       <ItemBottom>
         <ItemPrice>
           <ItemPriceLabel>Precio:</ItemPriceLabel>
@@ -117,6 +128,11 @@ const ItemSummary = ({
         </ItemPrice>
         <Button href="#contact">Consultar</Button>
       </ItemBottom>
+      <ItemNotice>
+        {available
+          ? "Disponible Inmediatamente"
+          : `Disponible a partir del ${lastDay}`}
+      </ItemNotice>
     </ItemBody>
   </Item>
 );

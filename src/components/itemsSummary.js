@@ -11,10 +11,10 @@ const ItemsList = styled.ul`
   list-style: none;
 `;
 
-const ItemsSummary = ({ items }) => (
+const ItemsSummary = ({ items, lastDay }) => (
   <ItemsList>
     {items.map((item) => (
-      <ItemSummary {...item} />
+      <ItemSummary {...item} lastDay={lastDay} />
     ))}
   </ItemsList>
 );

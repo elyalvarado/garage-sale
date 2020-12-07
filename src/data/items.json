@@ -5,7 +5,9 @@
     "details": "Smart TV Samsung 43\" 4K UHD con WiFi. Modelo UN43MU6100KXZL. Casi 3 años de uso, como nuevo en perfecto funcionamiento, sin ningún detalle.",
     "price": "850.000",
     "sold": false,
-    "images": [ "televisor.jpg" ]
+    "images": [ "televisor.jpg" ],
+    "available": true,
+    "highlighted": true
   },
   {
     "name": "Mueble para Televisor",
@@ -13,7 +15,9 @@
     "details": "Muy bonito mueble para colocar un televisor y equipos adicionales. En perfecto estado.",
     "price": "100.000",
     "sold": false,
-    "images": [ "televisor.jpg" ]
+    "images": [ "televisor.jpg" ],
+    "available": true,
+    "highlighted": false
   },
   {
     "name": "Oso de Peluche",
@@ -21,7 +25,9 @@
     "details": "Muy grande para viajar con nosotros sin pagar su propio pasaje. Nunca fue usado.",
     "price": "50.000",
     "sold": false,
-    "images": [ "oso.jpg" ]
+    "images": [ "oso.jpg" ],
+    "available": true,
+    "highlighted": true
   },
   {
     "name": "Mecedora",
@@ -29,7 +35,9 @@
     "details": "En excelente estado, con muy poco uso, solo fue usada por pocos meses para ayudar a dormir a la bebe.",
     "price": "70.000",
     "sold": false,
-    "images": [ "mecedora.jpg" ]
+    "images": [ "mecedora.jpg" ],
+    "available": true,
+    "highlighted": false
   },
   {
     "name": "Esterilizador de Teteros",
@@ -37,7 +45,9 @@
     "details": "Muy práctico ya que posee dos niveles que puede ser usados de forma independiente. Muy poco uso, en excelente estado.",
     "price": "190.000",
     "sold": false,
-    "images": [ "esterilizador.jpg" ]
+    "images": [ "esterilizador.jpg" ],
+    "available": true,
+    "highlighted": false
   },
   {
     "name": "Saca Leche",
@@ -45,15 +55,19 @@
     "details": "Muy poco uso, en excelente estado.",
     "price": "45.000",
     "sold": false,
-    "images": [ "extractor.jpg" ]
+    "images": [ "extractor.jpg" ],
+    "available": true,
+    "highlighted": false
   },
   {
     "name": "Bolsas de Leche",
-    "description": "Bolsas para almacenar leche materna",
-    "details": "2 paquetes de X bolsas, totalmente sellados completamente nuevos.",
-    "price": "10.000",
+    "description": "Bolsas para almacenar leche materna marca Avent",
+    "details": "1 paquetes de 25 bolsas, totalmente sellados completamente nuevos.",
+    "price": "30.000",
     "sold": false,
-    "images": [ "bolsas.jpg" ]
+    "images": [ "bolsas.jpg" ],
+    "available": true,
+    "highlighted": false
   },
   {
     "name": "Cornetas con Woofer",
@@ -61,7 +75,9 @@
     "details": "Excelente calidad de sonido, plug de audio normal.",
     "price": "40.000",
     "sold": false,
-    "images": [ "cornetas.jpg" ]
+    "images": [ "cornetas.jpg" ],
+    "available": true,
+    "highlighted": false
   },
   {
     "name": "Nevera 380l",
@@ -69,7 +85,9 @@
     "details": "Nevera sin escarcha marca Electrolux con 380 litros de capacidad, en perfecto estado, con un poco menos de 3 años de uso.",
     "price": "800.000",
     "sold": false,
-    "images": [ "nevera.jpg" ]
+    "images": [ "nevera.jpg" ],
+    "available": false,
+    "highlighted": true
   },
   {
     "name": "Lavadora 9kg",
@@ -77,18 +95,22 @@
     "details": "Lavadora con capacidad de 9kg de carga, en excelente estado, con un poco menos de 3 años de uso.",
     "price": "420.000",
     "sold": false,
-    "images": ["lavadora.jpg"]
+    "images": ["lavadora.jpg"],
+    "available": false,
+    "highlighted": true
   },
   {
     "name": "Juego de Comedor",
     "description": "Comedor Rectangular Blanco de 4 puestos",
-    "details": "Juego de Comedor de Madera. Con detalles en la pintura normales por su uso. Lo bueno es que es de madera y se puede volver a pintar.",
+    "details": "Juego de Comedor de Madera. Color Blanco. En excelente estado, con un poco menos de 3 años de uso.",
     "price": "380.000",
     "sold": false,
     "images": [
       "mesa_1.jpg",
       "mesa_2.jpg"
-    ]
+    ],
+    "available": false,
+    "highlighted": false
   },
   {
     "name": "Escritorio",
@@ -96,7 +118,10 @@
     "details": "Tenemos 2 disponibles. Escritorios de madera en color blanco, en muy buen estado de conservación, pequeños detalles en la pintura.",
     "price": "90.000",
     "sold": false,
-    "images": [ "escritorio.jpg" ]
+    "images": [ "escritorio.jpg" ],
+    "available": false,
+    "highlighted": true,
+    "highlighted": false
   },
   {
     "name": "Sillón Ejecutivo",
@@ -104,7 +129,9 @@
     "details": "Tenemos 2 disponibles, con detalles en el forro de cuero, pero en perfecto estado de funcionamiento.",
     "price": "70.000",
     "sold": false,
-    "images": [ "sillon.jpg" ]
+    "images": [ "sillon.jpg" ],
+    "available": false,
+    "highlighted": false
   },
   {
     "name": "Sofá cama",
@@ -112,7 +139,9 @@
     "details": "En muy buen estado, con poco menos de 3 años de uso.",
     "price": "100.000",
     "sold": false,
-    "images": [ "mueble_1.jpg", "mueble_2.jpg"]
+    "images": [ "mueble_1.jpg", "mueble_2.jpg"],
+    "available": false,
+    "highlighted": false
   },
   {
     "name": "Puerta de Seguridad para Bebes",
@@ -120,7 +149,9 @@
     "details": "Ancho ajustable, en perfecto estado tan solo 4 meses de uso. Excelente para evitar que tu bebe entre a la cocina.",
     "price": "100.000",
     "sold": false,
-    "images": [ "puerta.jpg" ]
+    "images": [ "puerta.jpg" ],
+    "available": false,
+    "highlighted": false
   },
   {
     "name": "Ventilador de Techo",
@@ -128,7 +159,9 @@
     "details": "Ventilador de Techo 5090 cfm de flujo de aire, 5 aspas. Muy silencioso, en excelente estado, menos de 4 meses de uso.",
     "price": "275.000",
     "sold": false,
-    "images": ["ventilador.jpg"]
+    "images": ["ventilador.jpg"],
+    "available": false,
+    "highlighted": false
   },
   {
     "name": "Cama Queen",
@@ -136,7 +169,9 @@
     "details": "En excelente estado, apenas un poco más de un año de uso.",
     "price": "600.000",
     "sold": false,
-    "images": ["cama.jpg"]
+    "images": ["cama.jpg"],
+    "available": false,
+    "highlighted": false
   } ,
   {
     "name": "Cambiador/Bañera de Bebé",
@@ -144,6 +179,8 @@
     "details": "En muy buen estado, tan solo 15 meses de uso. Ideal para bañar a bebes desde recien nacidos hasta los 18 meses de edad.",
     "price": "90.000",
     "sold": false,
-    "images": ["banera.jpg"]
+    "images": ["banera.jpg"],
+    "available": false,
+    "highlighted": false
   }
 ]
