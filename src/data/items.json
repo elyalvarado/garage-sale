@@ -44,7 +44,7 @@
     "description": "Esterilizador 2 niveles marca Avent",
     "details": "Muy práctico ya que posee dos niveles que puede ser usados de forma independiente. Muy poco uso, en excelente estado.",
     "price": "190.000",
-    "sold": false,
+    "sold": true,
     "images": [ "esterilizador.jpg" ],
     "available": true,
     "highlighted": false
@@ -64,17 +64,17 @@
     "description": "Bolsas para almacenar leche materna marca Avent",
     "details": "1 paquetes de 25 bolsas, totalmente sellados completamente nuevos.",
     "price": "30.000",
-    "sold": false,
+    "sold": true,
     "images": [ "bolsas.jpg" ],
     "available": true,
     "highlighted": false
   },
   {
-    "name": "Cornetas con Woofer",
-    "description": "Juego de Cornetas con Woofer marca Logitech",
+    "name": "Parlantes con Woofer",
+    "description": "Juego de Parlantes con Woofer marca Logitech",
     "details": "Excelente calidad de sonido, plug de audio normal.",
     "price": "40.000",
-    "sold": false,
+    "sold": true,
     "images": [ "cornetas.jpg" ],
     "available": true,
     "highlighted": false
@@ -117,7 +117,7 @@
     "description": "Escritorio de Madera color Blanco",
     "details": "Tenemos 2 disponibles. Escritorios de madera en color blanco, en muy buen estado de conservación, pequeños detalles en la pintura.",
     "price": "90.000",
-    "sold": false,
+    "sold": true,
     "images": [ "escritorio.jpg" ],
     "available": false,
     "highlighted": true,
@@ -138,7 +138,7 @@
     "description": "Sofá cama en color marrón",
     "details": "En muy buen estado, con poco menos de 3 años de uso.",
     "price": "100.000",
-    "sold": false,
+    "sold": true,
     "images": [ "mueble_1.jpg", "mueble_2.jpg"],
     "available": false,
     "highlighted": false
