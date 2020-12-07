@@ -8,6 +8,7 @@ const Main = styled.main`
 
   @media (max-width: 768px) {
     font-size: 0.7em;
+    padding: 20px;
   }
 `;
 
