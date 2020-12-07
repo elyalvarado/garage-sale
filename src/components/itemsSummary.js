@@ -14,7 +14,7 @@ const ItemsList = styled.ul`
 const ItemsSummary = ({ items, lastDay }) => (
   <ItemsList>
     {items.map((item) => (
-      <ItemSummary {...item} lastDay={lastDay} />
+      <ItemSummary key={item.name} {...item} lastDay={lastDay} />
     ))}
   </ItemsList>
 );

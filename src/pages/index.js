@@ -6,6 +6,7 @@ import Layout from "../components/layout";
 import ItemsSummary from "../components/itemsSummary";
 import Contact from "../components/contact";
 import FAQ from "../components/faq";
+import SEO from "../components/seo";
 
 const PageTitle = styled.h1`
   margin-top: 0;
@@ -36,8 +37,14 @@ const IndexPage = ({ data }) => {
     });
   });
 
+  const seoDescription = `${data.site.siteMetadata.description} -- ${items
+    .filter((i) => i.highlighted)
+    .map((i) => `${i.name} $${i.price}`)
+    .join(", ")}`;
+
   return (
     <Layout>
+      <SEO description={seoDescription} />
       <title>{data.site.siteMetadata.title}</title>
       <PageTitle>{data.site.siteMetadata.title}</PageTitle>
       <PageSubtitle>{data.site.siteMetadata.description}</PageSubtitle>

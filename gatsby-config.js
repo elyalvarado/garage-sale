@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `Venta de Garaje en Medellín`,
-    siteUrl: "https://ventadegaraje.vercel.app",
+    url: "https://ventadegaraje.vercel.app/",
     description:
       "Venta de Garaje en Medellín del 7 al 20 de Diciembre 2020. Aprovecha precios increibles por mudanza.",
+    image: "/images/allItems.png",
   },
   plugins: [
     "gatsby-plugin-styled-components",
