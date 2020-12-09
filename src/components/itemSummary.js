@@ -176,7 +176,7 @@ const ItemSummary = ({
       <ItemNotice>
         {available
           ? "Disponible Inmediatamente"
-          : `Disponible a partir del ${lastDay}`}
+          : `Disponible para retiro el ${lastDay} exclusivamente`}
       </ItemNotice>
     </ItemBody>
   </Item>
