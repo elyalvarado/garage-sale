@@ -178,7 +178,7 @@
     "description": "Mueble con doble función Cambiador y Bañera color Rosa",
     "details": "En muy buen estado, tan solo 15 meses de uso. Ideal para bañar a bebes desde recien nacidos hasta los 18 meses de edad.",
     "price": "90.000",
-    "sold": false,
+    "sold": true,
     "images": ["banera.jpg"],
     "available": false,
     "highlighted": false
