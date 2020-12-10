@@ -13,9 +13,16 @@ const ItemsList = styled.ul`
 
 const ItemsSummary = ({ items, lastDay }) => (
   <ItemsList>
-    {items.map((item) => (
-      <ItemSummary key={item.name} {...item} lastDay={lastDay} />
-    ))}
+    {items
+      .sort((a, b) => {
+        if (a.sold === b.sold) {
+          return 0;
+        }
+        return a.sold ? 1 : -1;
+      })
+      .map((item) => (
+        <ItemSummary key={item.name} {...item} lastDay={lastDay} />
+      ))}
   </ItemsList>
 );
 

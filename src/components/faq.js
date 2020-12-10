@@ -45,16 +45,14 @@ const FAQ = () => {
         <dt>¿Pueden enviarme el item que quiero?</dt>
         <dd>
           En general no estamos haciendo envíos, ya que por la mudanza estamos
-          muy ocupados. Dependiendo del item, podemos hacer excepciones, en
-          estos casos solicitaremos el pago por adelantado. Contactanos para
-          llegar a un acuerdo.
+          muy ocupados.
         </dd>
 
         <dt>
           Me interesa un item disponible solo el último día ¿Puedo reservarlo?
         </dt>
         <dd>
-          Si, sin embargo para reservar deberás realizar el pago por adelantado
+          Si, sin embargo para reservar deberás realizar un pago por adelantado
           para garantizar que no lo vendamos a alguien más. Ten en cuenta que
           los precios ya son bastante económicos.
         </dd>

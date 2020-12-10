@@ -138,7 +138,7 @@
     "description": "Sofá cama en color marrón",
     "details": "En muy buen estado, con poco menos de 3 años de uso.",
     "price": "100.000",
-    "sold": true,
+    "sold": false,
     "images": [ "mueble_1.jpg", "mueble_2.jpg"],
     "available": false,
     "highlighted": false
@@ -181,6 +181,126 @@
     "sold": true,
     "images": ["banera.jpg"],
     "available": false,
+    "highlighted": false
+  },
+  {
+    "name": "Telefono",
+    "description": "AT&T",
+    "details": "Telefono alámbrico sencillo.",
+    "price": "20.000",
+    "sold": false,
+    "images": ["telefono.jpg"],
+    "available": true,
+    "highlighted": false
+  },
+  {
+    "name": "Monopolio",
+    "description": "Juego de Monopolio",
+    "details": "Nunca usado",
+    "price": "20.000",
+    "sold": false,
+    "images": ["monopolio.jpg"],
+    "available": true,
+    "highlighted": false
+  },
+  {
+    "name": "Movil para Cunas",
+    "description": "Con luces, música y control remoto",
+    "details": "Nunca usado",
+    "price": "45.000",
+    "sold": false,
+    "images": ["movil.jpg"],
+    "available": true,
+    "highlighted": false
+  },
+  {
+    "name": "Pañalera Huggies",
+    "description": "Pañalera pequeña marca Huggies",
+    "details": "Muy práctica por su pequeño tamaño.",
+    "price": "20.000",
+    "sold": false,
+    "images": ["panalera.jpg"],
+    "available": true,
+    "highlighted": false
+  },
+  {
+    "name": "50 Capsulas Citragel",
+    "description": "Citrato de Calcio 1500mg + Vitamina D3 200 UI",
+    "details": "50 capsulas restantes de una caja de 90, Vence Noviembre de 2022",
+    "price": "15.000",
+    "sold": false,
+    "images": ["citragel.jpg"],
+    "available": true,
+    "highlighted": false
+  },
+  {
+    "name": "Colchón Inflable Doble",
+    "description": "Marca Klimber",
+    "details": "Colchón Inflable tamaño doble 191x137x22, incluyo Bomba Manual Doble Quick II",
+    "price": "35.000",
+    "sold": false,
+    "images": ["colchon.jpg"],
+    "available": true,
+    "highlighted": false
+  },
+  {
+    "name": "1Q84",
+    "description": "Haruki Murakami",
+    "details": "Libros 1 y 2 de la obra maestra de Haruki Murakami.",
+    "price": "35.000",
+    "sold": false,
+    "images": ["HarukiMurakami1.jpg"],
+    "available": true,
+    "highlighted": false
+  },
+  {
+    "name": "Practical Cryptography",
+    "description": "Bruce Schneier and Neils Fergusson ",
+    "details": "Uno de los libros seminales acerca de la Criptografía Aplicada",
+    "price": "40.000",
+    "sold": false,
+    "images": ["cryptography.jpg"],
+    "available": true,
+    "highlighted": false
+  },
+  {
+    "name": "Ruby on Rails Tutorial 4th Ed.",
+    "description": "Michael Hartl",
+    "details": "Tutorial de Rails, hecho para la versión 5, pero 98% del contenido aún aplica. Excelente para aprender Ruby on Rails.",
+    "price": "50.000",
+    "sold": false,
+    "images": ["RubyOnRailsTutorial.jpg"],
+    "available": true,
+    "highlighted": false
+  },
+  {
+    "name": "Eloquent Ruby",
+    "description": "Russ Olsen",
+    "details": "Uno de los mejores libros para aprender a escribir Ruby idiomático",
+    "price": "50.000",
+    "sold": false,
+    "images": ["EloquentRuby.jpg"],
+    "available": true,
+    "highlighted": false
+  },
+  {
+    "name": "PMP Exam Prep 8th Ed.",
+    "description": "Rita Mulcany",
+    "details": "Excelente libro para prepararse para el examen PMP, edición 2015, pero más del 90% del contenido sigue vigente para el exámen actual.",
+    "price": "150.000",
+    "sold": false,
+    "images": ["PMPbook1.jpg"],
+    "available": true,
+    "highlighted": false
+  },
+  {
+    "name": "Head First PMP",
+    "description": "Jennifer Green & Andrew Stellman",
+    "details": "Uno de los libros más fáciles de entender para prepararse para el exámen PMP edición 2016, pero más del 90% del contenido sigue vigente para el exámen actual.",
+    "price": "50.000",
+    "sold": false,
+    "images": ["PMPbook2.jpg"],
+    "available": true,
     "highlighted": false
   }
 ]
