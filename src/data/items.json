@@ -198,7 +198,7 @@
     "description": "Juego de Monopolio",
     "details": "Nunca usado",
     "price": "20.000",
-    "sold": false,
+    "sold": true,
     "images": ["monopolio.jpg"],
     "available": true,
     "highlighted": false
@@ -268,7 +268,7 @@
     "description": "Michael Hartl",
     "details": "Tutorial de Rails, hecho para la versión 5, pero 98% del contenido aún aplica. Excelente para aprender Ruby on Rails.",
     "price": "50.000",
-    "sold": false,
+    "sold": true,
     "images": ["RubyOnRailsTutorial.jpg"],
     "available": true,
     "highlighted": false
@@ -278,7 +278,7 @@
     "description": "Russ Olsen",
     "details": "Uno de los mejores libros para aprender a escribir Ruby idiomático",
     "price": "50.000",
-    "sold": false,
+    "sold": true,
     "images": ["EloquentRuby.jpg"],
     "available": true,
     "highlighted": false
