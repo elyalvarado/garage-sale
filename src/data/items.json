@@ -84,7 +84,7 @@
     "description": "Nevera Electrolux Non Frost 380l",
     "details": "Nevera sin escarcha marca Electrolux con 380 litros de capacidad, en perfecto estado, con un poco menos de 3 años de uso.",
     "price": "800.000",
-    "sold": false,
+    "sold": true,
     "images": [ "nevera.jpg" ],
     "available": false,
     "highlighted": true
@@ -188,7 +188,7 @@
     "description": "AT&T",
     "details": "Telefono alámbrico sencillo.",
     "price": "20.000",
-    "sold": false,
+    "sold": true,
     "images": ["telefono.jpg"],
     "available": true,
     "highlighted": false
