@@ -94,7 +94,7 @@
     "description": "Lavadora Automática Electrolux Carga Superior de 9kg Plata",
     "details": "Lavadora con capacidad de 9kg de carga, en excelente estado, con un poco menos de 3 años de uso.",
     "price": "420.000",
-    "sold": false,
+    "sold": true,
     "images": ["lavadora.jpg"],
     "available": false,
     "highlighted": true
