@@ -140,7 +140,7 @@
     "description": "Sillón Ejecutivo respaldo bajo con Brazos negro",
     "details": "Tenemos 2 disponibles, con detalles en el forro de cuero, pero en perfecto estado de funcionamiento.",
     "price": "50.000",
-    "sold": false,
+    "sold": true,
     "images": [ "sillon.jpg" ],
     "available": false,
     "highlighted": false
