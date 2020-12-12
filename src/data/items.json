@@ -116,7 +116,7 @@
     "description": "Comedor Rectangular Blanco de 4 puestos",
     "details": "Juego de Comedor de Madera. Color Blanco. En excelente estado, con un poco menos de 3 años de uso.",
     "price": "280.000",
-    "sold": false,
+    "sold": true,
     "images": [
       "mesa_1.jpg",
       "mesa_2.jpg"
