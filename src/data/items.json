@@ -1,5 +1,17 @@
 [
   {
+    "name": "Router WiFi Tenda AC1200",
+    "description": "Dual Band, Alta Velocidad, MU-MIMO",
+    "details": "4 antenas omnidireccionales, con amplio alcance de hasta 185 m^2",
+    "price": "50.000",
+    "sold": false,
+    "images": [
+      "tenda.jpg"
+    ],
+    "available": true,
+    "highlighted": false
+  },
+  {
     "name": "Televisor 43\"",
     "description": "Televisor Samsung 43\" UHD",
     "details": "Smart TV Samsung 43\" 4K UHD con WiFi. Modelo UN43MU6100KXZL. Casi 3 años de uso, como nuevo en perfecto funcionamiento, sin ningún detalle.",
@@ -103,7 +115,7 @@
     "name": "Juego de Comedor",
     "description": "Comedor Rectangular Blanco de 4 puestos",
     "details": "Juego de Comedor de Madera. Color Blanco. En excelente estado, con un poco menos de 3 años de uso.",
-    "price": "380.000",
+    "price": "280.000",
     "sold": false,
     "images": [
       "mesa_1.jpg",
