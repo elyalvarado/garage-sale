@@ -160,7 +160,7 @@
     "description": "Barrera de seguridad para bebes o mascotas",
     "details": "Ancho ajustable, en perfecto estado tan solo 4 meses de uso. Excelente para evitar que tu bebe entre a la cocina.",
     "price": "70.000",
-    "sold": false,
+    "sold": true,
     "images": [ "puerta.jpg" ],
     "available": false,
     "highlighted": false
