@@ -46,7 +46,7 @@
     "description": "Silla Mecedora de Madera",
     "details": "En excelente estado, con muy poco uso, solo fue usada por pocos meses para ayudar a dormir a la bebe.",
     "price": "40.000",
-    "sold": false,
+    "sold": true,
     "images": [ "mecedora.jpg" ],
     "available": true,
     "highlighted": false
@@ -250,7 +250,7 @@
     "description": "Marca Klimber",
     "details": "Colchón Inflable tamaño doble 191x137x22, incluyo Bomba Manual Doble Quick II",
     "price": "15.000",
-    "sold": false,
+    "sold": true,
     "images": ["colchon.jpg"],
     "available": true,
     "highlighted": false
